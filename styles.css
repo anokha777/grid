@@ -1,43 +1,33 @@
-/* ALL YOUR CODE GOES BELOW THIS LINE */
-/* ================================== */
+/* 🚨🚫🙅  START OF THE NO TOUCHING ZONE 🙅🚫🚨 */
 
-.container {
-    width: 800px;
-    margin: 0 auto;
+.box {
+    background-color: #42a5f5;
+    border: 3px solid black;
+    font-size: 3em;
+    padding: 0.5em;
+  }
+  /* 🚨🚫🙅  END OF THE NO TOUCHING ZONE 🙅🚫🚨 */
   
-    /* create 4 rows:  
-    - 150px 
-    - 50px 
-    - 400px
-    - 150px  */
+  /* ALL YOUR CODE GOES BELOW THIS LINE */
+  /* ================================== */
+  
+  #container {
+    margin: 0 auto;
+    height: 600px;
+    width: 600px;
+    border: 1px solid black;
+  
+    /* Create 2 columns: 
+      - 200px 
+      - 400px 
+    Create 3 rows: 
+      - 100px
+      - 400px 
+      - 100px */
+  
     /* ⬇️⬇️⬇️ STYLE THE GRID CONTAINER HERE ⬇️⬇️⬇️ */
     display: grid;
-    grid-template-rows: 150px 50px 400px 150px;
+    grid-template-columns: 200px 400px;
+    grid-template-rows: 100px 400px 100px;
     /* ⬆️⬆️⬆️ STYLE THE GRID CONTAINER HERE ⬆️⬆️⬆️ */
   }
-  
-  /* 🚨🚫🙅  START OF THE NO TOUCHING ZONE 🙅🚫🚨 */
-  
-  .container > * {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-    font-family: sans-serif;
-  }
-  .header {
-    background-color: #f06292;
-  }
-  .navbar {
-    background-color: #ba68c8;
-  }
-  
-  .main {
-    background-color: #9575cd;
-  }
-  
-  .footer {
-    background-color: #7986cb;
-  }
-  
-  /* 🚨🚫🙅  END OF THE NO TOUCHING ZONE 🙅🚫🚨 */
